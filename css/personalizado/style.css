@@ -4,20 +4,20 @@ body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background-image: linear-gradient(to right top, #660099, #5c009a, #51009c, #44009d, #33009f);
+  height: 0;
+  background-image: ( #cde9ff);
   background-repeat: no-repeat;
   color: #787878;
   height: 100%;
 }
-* {
+/* * {
   box-sizing: border-box;
-}
-.app-grid-container {
+} */
+/* .app-grid-container {
   width: 1244px;
   margin: 40px auto 100px auto;
   display: flow-root;
-}
+} */
 .app-grid-container .grid-title {
   text-align: center;
   color: #ffffff;
