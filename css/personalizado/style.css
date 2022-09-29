@@ -1,4 +1,4 @@
-/* vietnamese */
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,600,700&display=swap');
 body {
   font-family: 'Quicksand', sans-serif;
@@ -9,15 +9,23 @@ body {
   background-repeat: no-repeat;
   color: #787878;
   height: 100%;
+  width: auto;
 }
-/* * {
+* {
   box-sizing: border-box;
-} */
-/* .app-grid-container {
-  width: 1244px;
+} 
+
+.boxes {
+  display: grid;
+  grid-auto-rows: minmax(grid-auto-rows, auto);
+  grid-auto-columns: minmax(grid-auto-columns, auto);
+  grid-gap: .5rem;
+}
+.app-grid-container {
+  width: auto ;
   margin: 40px auto 100px auto;
   display: flow-root;
-} */
+}
 .app-grid-container .grid-title {
   text-align: center;
   color: #ffffff;
